@@ -1,0 +1,194 @@
+{
+    "info": {
+    "server_names": {
+    "Chocolate": {
+    "short_name": "tf2",
+    "game_name": "team_fortress_2"
+    },
+    
+    "Strawberry": {
+    "short_name": "tf2",
+    "game_name": "team_fortress_2"
+    },
+    
+    "Rainbow": {
+    "short_name": "tf2",
+    "game_name": "team_fortress_2"
+    },
+    
+    "Vanilla": {
+    "short_name": "tf2",
+    "game_name": "team_fortress_2"
+    },
+    
+    "Fudge": {
+    "short_name": "tf2",
+    "game_name": "team_fortress_2"
+    },
+    
+    
+    "Heraberry": {
+    "short_name": "mc",
+    "game_name": "minecraft"
+    },  
+     "TEST": {
+    "short_name": "mc",
+    "game_name": "minecraft"
+    } 
+    
+    },    
+    "servers": {
+    "team_fortress_2": {
+    "game_name": "Team Fortress 2",
+    "servers": {
+  	"Chocolate": {
+"title": "Chocolate",
+"title_short": "chocolate",
+"title_url": "Chocolate",
+"ip": "198.144.183.135:27015",
+"vanity_ip": "tf2.furfortress.com:27015",
+"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
+"sum_id": "0",
+"map_type": "2",
+"map_file": "http://www.southerncrossgaming.org/assets/data/chocolate_maplist.txt",
+"serverhop_id": "1",
+"sb_id": "10",
+"server_board": "71",
+"topic_id": "774",
+"desc": "General server, stock modes with some custom maps mixed in. Widely regarded as the \"regular\" server."
+        },
+        
+                		"Strawberry": {
+"title": "Strawberry",
+"title_short": "strawberry",
+"title_url": "Strawberry",
+"ip": "198.144.183.135:27016",
+"vanity_ip": "tf2.furfortress.com:27016",
+"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
+"sum_id": "0",
+"map_type": "1",
+"map_file": "http://www.southerncrossgaming.org/assets/data/strawberry_maplist.txt",
+"serverhop_id": "4",
+"sb_id": "10",
+"server_board": "76",
+"topic_id": "799",
+"desc": "24/7 Freak Fortress 2 server, complete with custom and homemade bosses.",
+"extra_pages": {
+"page": "hale_bosses"
+}
+        },
+        
+        		"Rainbow": {
+"title": "Rainbow Swirl",
+"title_short": "rainbow",
+"title_url": "Rainbow",
+"ip": "198.144.183.135:27017",
+"vanity_ip": "tf2.furfortress.com:27017",
+"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
+"sum_id": "0",
+"map_type": "2",
+"map_file": "http://www.southerncrossgaming.org/assets/data/rainbow_maplist.txt",
+"serverhop_id": "2",
+"sb_id": "10",
+"server_board": "77",
+"topic_id": "813",
+"desc": "Multi-mod server with custom character models, maps, gamemodes and more!"
+        },
+        
+        
+        		"Vanilla": {
+"title": "Vanilla Sundae",
+"title_short": "vanilla",
+"title_url": "Vanilla",
+"ip": "198.144.183.135:27018",
+"vanity_ip": "tf2.furfortress.com:27018",
+"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
+"sum_id": "0",
+"map_type": "1",
+"map_file": "http://www.southerncrossgaming.org/assets/data/vanilla_maplist.txt",
+"serverhop_id": "3",
+"sb_id": "10",
+"server_board": "78",
+"topic_id": "827",
+"desc": "Hangout server where you can ... hang out. Also used to beta test new toys."
+        },
+        
+        		"Fudge": {
+"title": "Front Line Fudge",
+"title_short": "flf",
+"title_url": "Fudge",
+"ip": "198.144.183.135:27019",
+"vanity_ip": "tf2.furfortress.com:27019",
+"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
+"sum_id": "0",
+"map_type": "1",
+"map_file": "http://www.southerncrossgaming.org/assets/data/flf_maplist.txt",
+"serverhop_id": "6",
+"sb_id": "10",
+"server_board": "79",
+"topic_id": "825",
+"desc": "A 24/7 Mann Versus Machine server, featuring custom maps. This server supports 10 players, join via console."
+        }
+        
+        }
+        },
+     "minecraft": {
+     "game_name": "Minecraft",
+     "servers": {
+     "Heraberry": {
+"title": "Heraberry",
+"title_short": "heraberry",
+"title_url": "Heraberry",
+"ip": "206.217.133.230:25765",
+"vanity_ip": "mc.furfortress.com:25765",
+"banner_image": "http://www.southerncrossgaming.org/assets/images/mc_banner1.jpg",
+"map_type": "3",
+"map_link": "http://206.217.133.230:15765/",
+"server_board": "72",
+"topic_id": "791",
+"desc": "SCG's first minecraft server, vanilla mostly with some fun mods! Requires just minecraft to play!"
+     },
+     "Placeholder": {
+"show_this": "0",
+"scg_only": "1",
+"title": "Placeholder",
+"title_short": "Placeholder",
+"title_url": "Placeholder",
+"ip": "206.217.133.230:25865",
+"vanity_ip": "mc.furfortress.com:25865",
+"banner_image": "http://www.southerncrossgaming.org/assets/images/",
+"map_type": "3",
+"map_link": "http://206.217.133.230:15865/",
+"server_board": "",
+"topic_id": "",
+"desc": "#placeholder"
+     }
+     }
+     },
+     "teamspeak_3": {
+     "game_name": "Team Speak 3",
+     "servers": {
+     "Coconut": {
+     "title": "Coconut",
+     "ip": "ts3.southerncrossgaming.com:9108",
+     "vanity_ip": "ts3.furfortress.com:9108",
+     "vanity_id": "ts3.furfortress.com",
+     "vanity_port": "9108"
+     }
+     }
+    },
+    "ut3": {
+    "game_name": "Unreal Tournament 3",
+    "public" : "0",
+    "servers": {
+    }
+    },
+    "halo": {
+    "game_name": "Halo : Combat evolved",
+    "public" : "0",
+    "servers": {
+    }
+    }
+    }
+}
+}
