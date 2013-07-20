@@ -41,16 +41,16 @@
     "team_fortress_2": {
     "game_name": "Team Fortress 2",
     "servers": {
-  	"Chocolate": {
+    	"Chocolate": {
 "title": "Chocolate",
 "title_short": "chocolate",
 "title_url": "Chocolate",
-"ip": "198.144.183.135:27015",
+"ip": "69.197.182.202:27015",
 "vanity_ip": "tf2.furfortress.com:27015",
 "banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "2",
-"map_file": "http://www.southerncrossgaming.org/assets/data/chocolate_maplist.txt",
+"map_file": "http://69.197.182.202/gp/_SERVERS/accounts/rowedahelicon/69.197.182.202:27015/232250/tf/umc_mapcycle.txt",
 "serverhop_id": "1",
 "sb_id": "10",
 "server_board": "71",
@@ -62,12 +62,12 @@
 "title": "Strawberry",
 "title_short": "strawberry",
 "title_url": "Strawberry",
-"ip": "198.144.183.135:27016",
-"vanity_ip": "tf2.furfortress.com:27016",
+"ip": "69.197.182.202:27017",
+"vanity_ip": "tf2.furfortress.com:27017",
 "banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "1",
-"map_file": "http://www.southerncrossgaming.org/assets/data/strawberry_maplist.txt",
+"map_file": "http://69.197.182.202/gp/_SERVERS/accounts/rowedahelicon/69.197.182.202:27017/232250/tf/arena_mapcycle.txt",
 "serverhop_id": "4",
 "sb_id": "10",
 "server_board": "76",
@@ -82,12 +82,12 @@
 "title": "Rainbow Swirl",
 "title_short": "rainbow",
 "title_url": "Rainbow",
-"ip": "198.144.183.135:27017",
-"vanity_ip": "tf2.furfortress.com:27017",
+"ip": "69.197.182.202:27016",
+"vanity_ip": "tf2.furfortress.com:27016",
 "banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "2",
-"map_file": "http://www.southerncrossgaming.org/assets/data/rainbow_maplist.txt",
+"map_file": "http://69.197.182.202/gp/_SERVERS/accounts/rowedahelicon/69.197.182.202:27016/232250/tf/umc_mapcycle.txt",
 "serverhop_id": "2",
 "sb_id": "10",
 "server_board": "77",
@@ -97,15 +97,16 @@
         
         
         		"Vanilla": {
+"show_this": "0",
 "title": "Vanilla Sundae",
 "title_short": "vanilla",
 "title_url": "Vanilla",
-"ip": "198.144.183.135:27018",
-"vanity_ip": "tf2.furfortress.com:27018",
+"ip": "69.197.182.202:27019",
+"vanity_ip": "tf2.furfortress.com:27019",
 "banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "1",
-"map_file": "http://www.southerncrossgaming.org/assets/data/vanilla_maplist.txt",
+"map_file": "http://69.197.182.202/gp/_SERVERS/accounts/rowedahelicon/69.197.182.202:27019/232250/tf/umc_mapcycle.txt",
 "serverhop_id": "3",
 "sb_id": "10",
 "server_board": "78",
@@ -117,12 +118,12 @@
 "title": "Front Line Fudge",
 "title_short": "flf",
 "title_url": "Fudge",
-"ip": "198.144.183.135:27019",
-"vanity_ip": "tf2.furfortress.com:27019",
+"ip": "69.197.182.202:27018",
+"vanity_ip": "tf2.furfortress.com:27018",
 "banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "1",
-"map_file": "http://www.southerncrossgaming.org/assets/data/flf_maplist.txt",
+"map_file": "http://69.197.182.202/gp/_SERVERS/accounts/rowedahelicon/69.197.182.202:27018/232250/tf/",
 "serverhop_id": "6",
 "sb_id": "10",
 "server_board": "79",
@@ -139,11 +140,11 @@
 "title": "Heraberry",
 "title_short": "heraberry",
 "title_url": "Heraberry",
-"ip": "206.217.133.230:25765",
-"vanity_ip": "mc.furfortress.com:25765",
+"ip": "69.197.182.202:25565",
+"vanity_ip": "mc.furfortress.com:25565",
 "banner_image": "http://www.southerncrossgaming.org/assets/images/mc_banner1.jpg",
 "map_type": "3",
-"map_link": "http://206.217.133.230:15765/",
+"map_link": "http://mc.furfortress.com:15765/",
 "server_board": "72",
 "topic_id": "791",
 "desc": "SCG's first minecraft server, vanilla mostly with some fun mods! Requires just minecraft to play!"
@@ -154,11 +155,11 @@
 "title": "Placeholder",
 "title_short": "Placeholder",
 "title_url": "Placeholder",
-"ip": "206.217.133.230:25865",
-"vanity_ip": "mc.furfortress.com:25865",
+"ip": "69.197.182.202:25765",
+"vanity_ip": "mc.furfortress.com:25765",
 "banner_image": "http://www.southerncrossgaming.org/assets/images/",
 "map_type": "3",
-"map_link": "http://206.217.133.230:15865/",
+"map_link": "http://69.197.182.202:15865/",
 "server_board": "",
 "topic_id": "",
 "desc": "#placeholder"
@@ -177,13 +178,19 @@
      }
      }
     },
+    "kf": {
+    "game_name": "Killing Floor",
+    "public" : "0",
+    "servers": {
+    }
+    },
     "ut3": {
     "game_name": "Unreal Tournament 3",
     "public" : "0",
     "servers": {
     }
     },
-    "halo": {
+    "halo1": {
     "game_name": "Halo : Combat evolved",
     "public" : "0",
     "servers": {
