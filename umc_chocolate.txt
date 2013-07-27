@@ -3,9 +3,9 @@
 
 "Capture Point"
 {
-"maps_invote"    "3"
-"cp_croissant_rc6" {}
-"cp_foundry" { "default_min_players"  "16" }
+"maps_invote" "3"
+"cp_croissant_rc6" { "min_players"  "14" }
+"cp_foundry" { "min_players"  "16" }
 "cp_granary" {}
 "cp_well" {}
 "cp_gravelpit" {}
@@ -17,20 +17,15 @@
 "cp_junction_final" {}
 "cp_egypt_final" {}
 "cp_fastlane" {}
-"cp_antiquity_rc1" { "default_min_players"  "18" }
-"cp_tidal_v3" {}
-"cp_mojave_b2" {}
-"cp_dustbowl_nights"{
-"min_time"  "1800"
-"max_time"  "0700"
-}
-
+"cp_antiquity_rc1" { "min_players"  "18" }
+"cp_tidal_v3" { "min_players"  "18" }
+"cp_dustbowl_nights"{ "min_time"  "1800" "max_time"  "0700" }
 }
 
 "Capture the Flag"
 {
-"maps_invote"    "3"
-"ctf_aerospace_b3" { "default_min_players" "16" }
+"maps_invote" "3"
+"ctf_aerospace_b3" { "min_players"  "16" }
 "ctf_well" {}
 "ctf_turbine_pro_b1" {}
 "ctf_convoy_v2" {}
@@ -38,32 +33,24 @@
 
 "King of the Hill"
 {
-"maps_invote"    "3"
+"maps_invote" "3"
 "koth_lakeside" {}
 "koth_badlands" {}
 "koth_arctic_b2a" {}
 "koth_garbage_day" { "command" "mp_timelimit 15" }
-"koth_moonshine_v2" { "default_min_players"  "18" }
+"koth_moonshine_v2" { "min_players"  "18" }
 "koth_railbridge_b1" {}
 "koth_watermill_final" {}
 "koth_nucleus" {}
-"koth_harvest_final" {
-"min_time"  "700"
-"max_time"  "1800"
-}
-"koth_harvest_event" {
-"min_time"  "1800"
-"max_time"  "0700"
-}
+"koth_harvest_final" {}
 }
 
 "Payload"
 {
-"maps_invote"    "3"
+"maps_invote" "3"
 "pl_swiftwater_final_rc" {}
 "pl_outback_rc" {}
 "pl_borneo_v2" {}
-"pl_morrigan_alley_b3" {}
 "pl_minepit" {}
 "pl_halfacre" {}
 "pl_goldrush" {}
@@ -76,12 +63,7 @@
 "pl_great_heights_b3" {}
 }
 
-"Payload Race"
-{
-"maps_invote"    "3"
-}
-
-"doomsday"
+"Doomsday - Unused"
 {
 "maps_invote" "0"
 "sd_doomsday" { "command" "mp_timelimit 15" }
@@ -90,27 +72,53 @@
 "New"
 {
 "maps_invote" "0"
-"pl_goldheist_canyon_final_v1" {}
 }
 
-"Fun"
+"Control Point - Unused"
 {
 "maps_invote" "0"
-"billiards_b6" {}
-"koth_lolcano_b2" {}
-"saxton_soccer_a4" {}
+"cp_standin" {}
+"cp_process" {}
+"cp_steel" {}
 }
 
-"Overplayed"
+"Capture the Flag - Unused"
 {
 "maps_invote" "0"
 "ctf_turbine" {}
-"plr_pipeline" {}
-"plr_hightower" {}
-"pl_pier_b4" {}
+"ctf_doublecross" {}
+}
+
+"King of the Hill - Unused"
+{
+"maps_invote" "0"
 "koth_twinfalls" {}
 "koth_king" {}
-"ctf_doublecross" {}
+}
+
+"Medieval - Unused"
+{
+"maps_invote" "0"
+"pl_morrigan_alley_b3" {}
+}
+
+"Payload - Unused"
+{
+"maps_invote" "0"
+"pl_pier_b4" {}
+}
+
+"Payload Race - Unused"
+{
+"maps_invote" "0"
+"plr_pipeline" {}
+"plr_hightower" {}
+}
+
+"Tactical Control - Unused"
+{
+"maps_invote" "0"
+"tc_hydro" {}
 }
 
 "Holiday - Halloween"
@@ -118,6 +126,8 @@
 "maps_invote" "0"
 "pl_moonlit_b5" {}
 "koth_viaduct_event" {}
+"koth_lakeside_event" {}
+"koth_harvest_event" {}
 }
 
 }
