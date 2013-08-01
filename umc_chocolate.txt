@@ -3,9 +3,13 @@
 
 "Capture Point"
 {
-"maps_invote" "3"
-"cp_croissant_rc6" { "min_players"  "14" }
-"cp_foundry" { "min_players"  "16" }
+"maps_invote"    "3"
+"cp_croissant_rc6" { 
+"min_players"  "14" 
+}
+"cp_foundry" { 
+"min_players"  "16" 
+}
 "cp_granary" {}
 "cp_well" {}
 "cp_gravelpit" {}
@@ -17,15 +21,24 @@
 "cp_junction_final" {}
 "cp_egypt_final" {}
 "cp_fastlane" {}
-"cp_antiquity_rc1" { "min_players"  "18" }
-"cp_tidal_v3" { "min_players"  "18" }
-"cp_dustbowl_nights"{ "min_time"  "1800" "max_time"  "0700" }
+"cp_antiquity_rc1" { 
+"min_players"  "18" 
+}
+"cp_tidal_v3" { 
+"min_players"  "18" 
+}
+"cp_dustbowl_nights" { 
+"min_time"  "1800" 
+"max_time"  "0700" 
+}
 }
 
 "Capture the Flag"
 {
-"maps_invote" "3"
-"ctf_aerospace_b3" { "min_players"  "16" }
+"maps_invote"    "3"
+"ctf_aerospace_b3" { 
+"default_min_players" "16" 
+}
 "ctf_well" {}
 "ctf_turbine_pro_b1" {}
 "ctf_convoy_v2" {}
@@ -33,12 +46,16 @@
 
 "King of the Hill"
 {
-"maps_invote" "3"
+"maps_invote"    "3"
 "koth_lakeside" {}
 "koth_badlands" {}
 "koth_arctic_b2a" {}
-"koth_garbage_day" { "command" "mp_timelimit 15" }
-"koth_moonshine_v2" { "min_players"  "18" }
+"koth_garbage_day" { 
+"command" "mp_timelimit 15" 
+}
+"koth_moonshine_v2" { 
+"min_players"  "18" 
+}
 "koth_railbridge_b1" {}
 "koth_watermill_final" {}
 "koth_nucleus" {}
@@ -47,10 +64,11 @@
 
 "Payload"
 {
-"maps_invote" "3"
+"maps_invote"    "3"
 "pl_swiftwater_final_rc" {}
 "pl_outback_rc" {}
 "pl_borneo_v2" {}
+"pl_morrigan_alley_b3" {}
 "pl_minepit" {}
 "pl_halfacre" {}
 "pl_goldrush" {}
@@ -63,10 +81,12 @@
 "pl_great_heights_b3" {}
 }
 
-"Doomsday - Unused"
+"doomsday"
 {
 "maps_invote" "0"
-"sd_doomsday" { "command" "mp_timelimit 15" }
+"sd_doomsday" { 
+"command" "mp_timelimit 15" 
+}
 }
 
 "New"
@@ -94,12 +114,6 @@
 "maps_invote" "0"
 "koth_twinfalls" {}
 "koth_king" {}
-}
-
-"Medieval - Unused"
-{
-"maps_invote" "0"
-"pl_morrigan_alley_b3" {}
 }
 
 "Payload - Unused"
