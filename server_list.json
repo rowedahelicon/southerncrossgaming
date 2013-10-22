@@ -26,12 +26,12 @@
     "game_name": "team_fortress_2"
     },
     
-    
     "Heraberry": {
     "short_name": "mc",
     "game_name": "minecraft"
     },  
-     "TEST": {
+    
+    "Sigurberry": {
     "short_name": "mc",
     "game_name": "minecraft"
     } 
@@ -50,7 +50,8 @@
 "banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "2",
-"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/rowedahelicon/205.234.153.146:27015/232250/tf/umc_mapcycle.txt",
+"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27015/232250/tf/umc_mapcycle.txt",
+"command_file": "http://205.234.153.146/gpx/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27015/232250/tf/CommandDump.csv",
 "serverhop_id": "1",
 "sb_id": "10",
 "server_board": "71",
@@ -59,7 +60,7 @@
         },
         
 		
-		        		"Rainbow": {
+	       "Rainbow": {
 "title": "Rainbow Swirl",
 "title_short": "rainbow",
 "title_url": "Rainbow",
@@ -68,12 +69,17 @@
 "banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "2",
-"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/rowedahelicon/205.234.153.146:27016/232250/tf/umc_mapcycle.txt",
+"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27016/232250/tf/umc_mapcycle.txt",
+"command_file": "http://205.234.153.146/gpx/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27016/232250/tf/CommandDump.csv",
 "serverhop_id": "2",
 "sb_id": "10",
 "server_board": "77",
 "topic_id": "813",
-"desc": "Multi-mod server with custom character models, maps, gamemodes and more!"
+"desc": "Multi-mod server with custom character models, maps, gamemodes and more!",
+"extra_pages": {
+"page": "deathrun|dodgeball|fort_wars|prophunt|super_zombie_fortress|tf2_ware"
+}
+}
         },
 		
                 		"Strawberry": {
@@ -85,7 +91,8 @@
 "banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "1",
-"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/rowedahelicon/205.234.153.146:27017/232250/tf/arena_mapcycle.txt",
+"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27017/232250/tf/arena_mapcycle.txt",
+"command_file": "http://205.234.153.146/gpx/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27017/232250/tf/CommandDump.csv",
 "serverhop_id": "4",
 "sb_id": "10",
 "server_board": "76",
@@ -95,7 +102,26 @@
 "page": "hale_bosses"
 }
         },
-                
+        
+                		"Fudge": {
+"title": "Front Line Fudge",
+"title_short": "flf",
+"title_url": "Fudge",
+"ip": "205.234.153.146:27018",
+"vanity_ip": "tf2.furfortress.com:27018",
+"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
+"sum_id": "0",
+"map_type": "1",
+"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27018/232250/tf/mvm_mapcycle.txt",
+"command_file": "http://205.234.153.146/gpx/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27018/232250/tf/CommandDump.csv",
+"serverhop_id": "6",
+"sb_id": "10",
+"server_board": "79",
+"topic_id": "825",
+"desc": "A 24/7 Mann Versus Machine server, featuring custom maps. This server supports 10 players, join via console.",
+"extra_pages": {
+"page": "mvm"
+},
         
         		"Vanilla": {
 "show_this": "0",
@@ -107,29 +133,15 @@
 "banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "1",
-"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/rowedahelicon/205.234.153.146:27019/232250/tf/umc_mapcycle.txt",
+"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27019/232250/tf/umc_mapcycle.txt",
+"command_file": "http://205.234.153.146/gpx/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27019/232250/tf/CommandDump.csv",
 "serverhop_id": "3",
 "sb_id": "10",
 "server_board": "78",
 "topic_id": "827",
 "desc": "Hangout server where you can ... hang out. Also used to beta test new toys."
-        },
+        }
         
-        		"Fudge": {
-"title": "Front Line Fudge",
-"title_short": "flf",
-"title_url": "Fudge",
-"ip": "205.234.153.146:27018",
-"vanity_ip": "tf2.furfortress.com:27018",
-"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
-"sum_id": "0",
-"map_type": "1",
-"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/rowedahelicon/205.234.153.146:27018/232250/tf/mvm_mapcycle.txt",
-"serverhop_id": "6",
-"sb_id": "10",
-"server_board": "79",
-"topic_id": "825",
-"desc": "A 24/7 Mann Versus Machine server, featuring custom maps. This server supports 10 players, join via console."
         }
         
         }
@@ -207,6 +219,16 @@
     "game_name": "Halo : Combat evolved",
     "public" : "0",
     "servers": {
+    	        		"CovenantCrunch": {
+"show_this": "0",
+"title": "Covenant Crunch",
+"title_short": "covenantcrunch",
+"title_url": "CovenantCrunch",
+"ip": "205.234.153.146:2302",
+"vanity_ip": "halo.furfortress.com:2302",
+"banner_image": "http://www.southerncrossgaming.org/assets/images/",
+"desc": ""
+        }
     }
     }
     }
