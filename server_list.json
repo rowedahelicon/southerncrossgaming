@@ -47,15 +47,17 @@
 "title_url": "Chocolate",
 "ip": "205.234.153.146:27015",
 "vanity_ip": "tf2.furfortress.com:27015",
-"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "2",
-"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27015/232250/tf/umc_mapcycle.txt",
-"command_file": "http://205.234.153.146/gpx/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27015/232250/tf/CommandDump.csv",
+"map_file": "http://205.234.153.146/files/chocolate/umc_mapcycle.txt",
+"command_file": "http://205.234.153.146/files/chocolate/CommandDump.csv",
+"download_file": "http://205.234.153.146/files/chocolate/downloads_simple.ini",
+"mass_download_file": "http://205.234.153.146/files/chocolate/downloads.ini",
 "serverhop_id": "1",
 "sb_id": "10",
 "server_board": "71",
 "topic_id": "774",
+"role": "General Server",
 "desc": "General server, stock modes with some custom maps mixed in. Widely regarded as the \"regular\" server."
         },
         
@@ -66,21 +68,19 @@
 "title_url": "Rainbow",
 "ip": "205.234.153.146:27016",
 "vanity_ip": "tf2.furfortress.com:27016",
-"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "2",
-"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27016/232250/tf/umc_mapcycle.txt",
-"command_file": "http://205.234.153.146/gpx/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27016/232250/tf/CommandDump.csv",
+"map_file": "http://205.234.153.146/files/rainbow/umc_mapcycle.txt",
+"command_file": "http://205.234.153.146/files/rainbow/CommandDump.csv",
 "serverhop_id": "2",
 "sb_id": "10",
 "server_board": "77",
 "topic_id": "813",
 "desc": "Multi-mod server with custom character models, maps, gamemodes and more!",
 "extra_pages": {
-"page": "deathrun|dodgeball|fort_wars|prophunt|super_zombie_fortress|tf2_ware"
+"page": "deathrun|dodgeball|fort_wars|prophunt|zombie_fortress|tf2_ware"
 }
-}
-        },
+},
 		
                 		"Strawberry": {
 "title": "Strawberry",
@@ -88,11 +88,10 @@
 "title_url": "Strawberry",
 "ip": "205.234.153.146:27017",
 "vanity_ip": "tf2.furfortress.com:27017",
-"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "1",
-"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27017/232250/tf/arena_mapcycle.txt",
-"command_file": "http://205.234.153.146/gpx/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27017/232250/tf/CommandDump.csv",
+"map_file": "http://205.234.153.146/files/strawberry/arena_mapcycle.txt",
+"command_file": "http://205.234.153.146/files/strawberry/CommandDump.csv",
 "serverhop_id": "4",
 "sb_id": "10",
 "server_board": "76",
@@ -109,11 +108,10 @@
 "title_url": "Fudge",
 "ip": "205.234.153.146:27018",
 "vanity_ip": "tf2.furfortress.com:27018",
-"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "1",
-"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27018/232250/tf/mvm_mapcycle.txt",
-"command_file": "http://205.234.153.146/gpx/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27018/232250/tf/CommandDump.csv",
+"map_file": "http://205.234.153.146/files/flf/scg_mvm_mapcycle.txt",
+"command_file": "http://205.234.153.146/files/flf/CommandDump.csv",
 "serverhop_id": "6",
 "sb_id": "10",
 "server_board": "79",
@@ -121,29 +119,26 @@
 "desc": "A 24/7 Mann Versus Machine server, featuring custom maps. This server supports 10 players, join via console.",
 "extra_pages": {
 "page": "mvm"
+}
 },
+
         
         		"Vanilla": {
-"show_this": "0",
 "title": "Vanilla Sundae",
 "title_short": "vanilla",
 "title_url": "Vanilla",
 "ip": "205.234.153.146:27019",
 "vanity_ip": "tf2.furfortress.com:27019",
-"banner_image": "http://www.southerncrossgaming.org/assets/images/tf2banner.jpg",
 "sum_id": "0",
 "map_type": "1",
-"map_file": "http://205.234.153.146/gp/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27019/232250/tf/umc_mapcycle.txt",
-"command_file": "http://205.234.153.146/gpx/_SERVERS/accounts/scg_tf2_user/205.234.153.146:27019/232250/tf/CommandDump.csv",
+"map_file": "http://205.234.153.146/files/vanilla/umc_mapcycle.txt",
+"command_file": "http://205.234.153.146/files/vanilla/CommandDump.csv",
 "serverhop_id": "3",
 "sb_id": "10",
 "server_board": "78",
 "topic_id": "827",
 "desc": "Hangout server where you can ... hang out. Also used to beta test new toys."
         }
-        
-        }
-        
         }
         },
      "minecraft": {
@@ -155,25 +150,25 @@
 "title_url": "Heraberry",
 "ip": "192.187.113.34:25565",
 "vanity_ip": "mc.furfortress.com:25565",
-"banner_image": "http://www.southerncrossgaming.org/assets/images/mc_banner1.jpg",
+"banner_image": "http://www.southerncrossgaming.org/assets/images/rolling_ads/mc_banner1.jpg",
 "map_type": "3",
-"map_link": "http://192.187.113.34:15765/",
+"map_link": "http://mc.furfortress.com:15765/",
 "map_link_vanity": "http://mc.furfortress.com:15765/",
 "server_board": "72",
 "topic_id": "791",
 "desc": "SCG's first minecraft server, vanilla mostly with some fun mods! Requires just minecraft to play!"
      },
-     "Placeholder": {
+     "Sigurberry": {
 "show_this": "0",
 "scg_only": "1",
-"title": "Placeholder",
-"title_short": "Placeholder",
-"title_url": "Placeholder",
-"ip": "192.187.113.34:25765",
-"vanity_ip": "mc.furfortress.com:25765",
+"title": "Sigurberry",
+"title_short": "sigurberry",
+"title_url": "Sigurberry",
+"ip": "",
+"vanity_ip": "",
 "banner_image": "http://www.southerncrossgaming.org/assets/images/",
 "map_type": "3",
-"map_link": "http://192.187.113.34:15865/",
+"map_link": "http://mc.furfortress.com:15865/",
 "server_board": "",
 "topic_id": "",
 "desc": "#placeholder"
@@ -216,21 +211,21 @@
     }
     },
     "halo1": {
-    "game_name": "Halo : Combat evolved",
+    "game_name": "Halo Combat Evolved",
     "public" : "0",
     "servers": {
     	        		"CovenantCrunch": {
-"show_this": "0",
 "title": "Covenant Crunch",
 "title_short": "covenantcrunch",
 "title_url": "CovenantCrunch",
-"ip": "205.234.153.146:2302",
-"vanity_ip": "halo.furfortress.com:2302",
-"banner_image": "http://www.southerncrossgaming.org/assets/images/",
-"desc": ""
+"ip": "",
+"vanity_ip": "",
+"password": "",
+"desc": "Come join the fight ... or crash Banshees into each other I don't care!"
         }
     }
     }
     }
 }
 }
+
