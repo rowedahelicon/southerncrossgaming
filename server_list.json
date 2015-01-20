@@ -39,8 +39,13 @@
 	"Nelsonnut": {
     "short_name": "ut",
     "game_name": "unturned"
-    } 
+    },
 	
+	"SundaeSundaeSundae": {
+    "short_name": "dst",
+    "game_name": "dont_starve_together"
+    }
+
     },    
     "servers": {
     "team_fortress_2": {
@@ -68,7 +73,8 @@
 		"topic_id": "774",
 		"update_pool": "1",
 		"role": "General Server",
-		"desc": "General server, stock modes with some custom maps mixed in. Widely regarded as the \"regular\" server."
+		"desc": "General server, stock modes with some custom maps mixed in. Widely regarded as the \"regular\" server.",
+		"tags": "Capture_The_Flag Control_Point Koth_Of_The_Hill Payload Robot_Destruction"
         },
         "Rainbow": {
 		"title": "Rainbow Swirl",
@@ -89,6 +95,7 @@
 "topic_id": "813",
 "update_pool": "1",
 "desc": "Multi-mod server with custom character models, maps, gamemodes and more!",
+"tags": "Capture_The_Flag Control_Point King_Of_The_Hill Payload Dodgeball Randomizer",
 "extra_pages": {
 "page": "deathrun|dodgeball|fort_wars|prophunt|zombie_fortress|tf2_ware"
 }
@@ -111,6 +118,7 @@
 "topic_id": "799",
 "update_pool": "1",
 "desc": "24/7 Freak Fortress 2 server, complete with custom and homemade bosses.",
+"tags": "Freak_Fortress_2",
 "extra_pages": {
 "page": "hale_bosses"
 }
@@ -133,6 +141,7 @@
 "topic_id": "825",
 "update_pool": "1",
 "desc": "A 24/7 Mann Versus Machine server, featuring custom maps. This server supports 10 players, join via console.",
+"tags": "Mann_Vs_Machine",
 "extra_pages": {
 "page": "mvm"
 }
@@ -155,7 +164,8 @@
 "server_board": "78",
 "topic_id": "827",
 "update_pool": "1",
-"desc": "Hangout server where you can ... hang out. Also used to beta test new toys."
+"desc": "Hangout server where you can ... hang out. Also used to beta test new toys.",
+"tags": "Training"
         }
         }
         },
@@ -173,8 +183,8 @@
 		"vanity_ip": "mc.furfortress.com:25565",
 		"banner_image": "http://www.southerncrossgaming.org/assets/images/rolling_ads/mc_banner1.jpg",
 		"map_type": "3",
-		"map_link": "http://mc.furfortress.com:15765/",
-		"map_link_vanity": "http://mc.furfortress.com:15765/",
+		"map_link": "http://mc.furfortress.com:8123/",
+		"map_link_vanity": "http://mc.furfortress.com:8123/",
 		"server_board": "72",
 		"topic_id": "791",
 		"update_pool": "1",
@@ -182,6 +192,8 @@
 		},
 		"Sigurberry": {
 		"show_this": "0",
+		"is_beta": "0",
+		"coming_soon": "1",
 		"scg_only": "1",
 		"title": "Sigurberry",
 		"title_short": "sigurberry",
@@ -200,6 +212,7 @@
     },
     "teamspeak_3": {
 	"game_name": "Team Speak 3",
+	"public" : "0",
 	"update_manifest": "0",
 	"update_service": "ts3",
 		"servers": {
@@ -223,19 +236,32 @@
 		}
 		}
     },
-    "kf": {
-	"game_name": "Killing Floor",
+    "raidcall": {
+	"game_name": "Raidcall",
+	"public" : "1",
+	"update_manifest": "0",
+	"update_service": "rc",
+		"servers": {
+		"Rocky_road": {
+		"title": "Rocky Road",
+		"raidcall_id": "10170466",
+		"desc": "A communication server for gaming and hangouts. Visit the ambience rooms for some relaxation!"
+		}
+		}
+    },
+    "kf2": {
+	"game_name": "Killing Floor 2",
 	"public" : "0",
 	"update_manifest": "0",
-	"update_service": "kf",
+	"update_service": "kf2",
 		"servers": {
 		}
     },
-    "ut3": {
-	"game_name": "Unreal Tournament 3",
+    "ut": {
+	"game_name": "Unreal Tournament",
 	"public" : "0",
-	"update_pool": "0",
-	"update_service": "ut3",
+	"update_manifest": "0",
+	"update_service": "ut",
 		"servers": {
 		}
     },
@@ -257,21 +283,42 @@
 	},
 		"unturned": {
 		"game_name": "Unturned",
-		"update_pool": "0",
+		"update_manifest": "0",
 		"public" : "0",
+		"coming_soon" : "1",
 		"servers": {
 			"Nelsonnut": {
+			"coming_soon": "1",
 			"title": "Nelson Nut Muffin",
 			"title_short": "nelsonnut",
 			"title_url": "Nelsonnut",
 			"ip": "205.234.153.146:25444",
 			"vanity_ip": "tf2.furfortress.com:25444",
 			"password": "null",
+			"update_pool": "0",
 			"desc": "It's like Minecraft meets DayZ with more guns and more cars and better physics and a less buggy engine and fun!"
+		}
+		}
+	},
+		"dont_starve_together": {
+		"game_name": "Don't Starve Together",
+		"update_manifest": "0",
+		"public" : "0",
+		"coming_soon" : "1",
+		"servers": {
+			"Sundaesundaesundae": {
+			"coming_soon": "1",
+			"title": "Sundae Sundae Sundae",
+			"title_short": "sundaesundaesundae",
+			"title_url": "sundae",
+			"ip": "205.234.153.146:",
+			"vanity_ip": "tf2.furfortress.com:",
+			"password": "null",
+			"update_pool": "0",
+			"desc": "Fight together, survive together, and most importantly; Don't starve together."
 		}
 		}
 	}
 }
 }
 }
-
